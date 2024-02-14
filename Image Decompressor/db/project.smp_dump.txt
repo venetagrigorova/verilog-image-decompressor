@@ -1,0 +1,282 @@
+
+State Machine - |project|milestone2:milestone2_unit|M2_state
+Name M2_state~11 M2_state~10 M2_state~9 M2_state~8 M2_state~7 M2_state~6 M2_state~5 M2_state~4 
+M2_state.S_M2_IDLE 0 0 0 0 0 0 0 0 
+M2_state.S_MEGASTART_DELAY_0 0 0 0 0 0 0 0 1 
+M2_state.S_LOAD_SP_LI_00 0 0 0 0 0 0 1 0 
+M2_state.S_LOAD_SP_LI_01 0 0 0 0 0 0 1 1 
+M2_state.S_LOAD_SP_LI_02 0 0 0 0 0 1 0 0 
+M2_state.S_LOAD_SP_LI_9 0 0 0 0 0 1 0 1 
+M2_state.S_LOAD_SP_LI_10 0 0 0 0 0 1 1 0 
+M2_state.S_LOAD_SP_LI_11 0 0 0 0 0 1 1 1 
+M2_state.S_LOAD_SP_LI_12 0 0 0 0 1 0 0 0 
+M2_state.S_LOAD_SP_LI_13 0 0 0 0 1 0 0 1 
+M2_state.S_LOAD_SP_LI_14 0 0 0 0 1 0 1 0 
+M2_state.S_LOAD_SP_LI_15 0 0 0 0 1 0 1 1 
+M2_state.S_LOAD_SP_LI_16 0 0 0 0 1 1 0 0 
+M2_state.S_LOAD_SP_1 0 0 0 0 1 1 0 1 
+M2_state.S_LOAD_SP_2 0 0 0 0 1 1 1 0 
+M2_state.S_LOAD_SP_3 0 0 0 0 1 1 1 1 
+M2_state.S_LOAD_SP_4 0 0 0 1 0 0 0 0 
+M2_state.S_LOAD_SP_5 0 0 0 1 0 0 0 1 
+M2_state.S_LOAD_SP_6 0 0 0 1 0 0 1 0 
+M2_state.S_LOAD_SP_7 0 0 0 1 0 0 1 1 
+M2_state.S_LOAD_SP_8 0 0 0 1 0 1 0 0 
+M2_state.S_LOAD_SP_9 0 0 0 1 0 1 0 1 
+M2_state.S_LOAD_SP_10 0 0 0 1 0 1 1 0 
+M2_state.S_LOAD_SP_11 0 0 0 1 0 1 1 1 
+M2_state.S_LOAD_SP_12 0 0 0 1 1 0 0 0 
+M2_state.S_LOAD_SP_13 0 0 0 1 1 0 0 1 
+M2_state.S_LOAD_SP_14 0 0 0 1 1 0 1 0 
+M2_state.S_LOAD_SP_15 0 0 0 1 1 0 1 1 
+M2_state.S_LOAD_SP_16 0 0 0 1 1 1 0 0 
+M2_state.S_LOAD_SP_LO_1 0 0 0 1 1 1 0 1 
+M2_state.S_LOAD_SP_LO_2 0 0 0 1 1 1 1 0 
+M2_state.S_LOAD_SP_LO_3 0 0 0 1 1 1 1 1 
+M2_state.S_LOAD_SP_LO_4 0 0 1 0 0 0 0 0 
+M2_state.S_LOAD_SP_LO_5 0 0 1 0 0 0 0 1 
+M2_state.S_LOAD_SP_LO_6 0 0 1 0 0 0 1 0 
+M2_state.S_LOAD_SP_LO_7 0 0 1 0 0 0 1 1 
+M2_state.S_LOAD_SP_LO_8 0 0 1 0 0 1 0 0 
+M2_state.S_LOAD_SP_LO_9 0 0 1 0 0 1 0 1 
+M2_state.S_LOAD_SP_LO_10 0 0 1 0 0 1 1 0 
+M2_state.S_LOAD_T_LI_00 0 0 1 0 0 1 1 1 
+M2_state.S_LOAD_T_LI_01 0 0 1 0 1 0 0 0 
+M2_state.S_LOAD_T_LI_02 0 0 1 0 1 0 0 1 
+M2_state.S_LOAD_T_LI_9 0 0 1 0 1 0 1 0 
+M2_state.S_LOAD_T_LI_10 0 0 1 0 1 0 1 1 
+M2_state.S_LOAD_T_LI_11 0 0 1 0 1 1 0 0 
+M2_state.S_LOAD_T_LI_12 0 0 1 0 1 1 0 1 
+M2_state.S_LOAD_T_LI_13 0 0 1 0 1 1 1 0 
+M2_state.S_LOAD_T_LI_14 0 0 1 0 1 1 1 1 
+M2_state.S_LOAD_T_LI_15 0 0 1 1 0 0 0 0 
+M2_state.S_LOAD_T_LI_16 0 0 1 1 0 0 0 1 
+M2_state.S_LOAD_T_1 0 0 1 1 0 0 1 0 
+M2_state.S_LOAD_T_2 0 0 1 1 0 0 1 1 
+M2_state.S_LOAD_T_3 0 0 1 1 0 1 0 0 
+M2_state.S_LOAD_T_4 0 0 1 1 0 1 0 1 
+M2_state.S_LOAD_T_5 0 0 1 1 0 1 1 0 
+M2_state.S_LOAD_T_6 0 0 1 1 0 1 1 1 
+M2_state.S_LOAD_T_7 0 0 1 1 1 0 0 0 
+M2_state.S_LOAD_T_8 0 0 1 1 1 0 0 1 
+M2_state.S_LOAD_T_9 0 0 1 1 1 0 1 0 
+M2_state.S_LOAD_T_10 0 0 1 1 1 0 1 1 
+M2_state.S_LOAD_T_11 0 0 1 1 1 1 0 0 
+M2_state.S_LOAD_T_12 0 0 1 1 1 1 0 1 
+M2_state.S_LOAD_T_13 0 0 1 1 1 1 1 0 
+M2_state.S_LOAD_T_14 0 0 1 1 1 1 1 1 
+M2_state.S_LOAD_T_15 0 1 0 0 0 0 0 0 
+M2_state.S_LOAD_T_16 0 1 0 0 0 0 0 1 
+M2_state.S_LOAD_T_LO_1 0 1 0 0 0 0 1 0 
+M2_state.S_LOAD_T_LO_2 0 1 0 0 0 0 1 1 
+M2_state.S_LOAD_T_LO_3 0 1 0 0 0 1 0 0 
+M2_state.S_LOAD_T_LO_4 0 1 0 0 0 1 0 1 
+M2_state.S_LOAD_T_LO_5 0 1 0 0 0 1 1 0 
+M2_state.S_LOAD_T_LO_6 0 1 0 0 0 1 1 1 
+M2_state.S_LOAD_T_LO_7 0 1 0 0 1 0 0 0 
+M2_state.S_LOAD_T_LO_8 0 1 0 0 1 0 0 1 
+M2_state.S_LOAD_T_LO_9 0 1 0 0 1 0 1 0 
+M2_state.S_LOAD_T_LO_10 0 1 0 0 1 0 1 1 
+M2_state.S_LOAD_T_LO_11 0 1 0 0 1 1 0 0 
+M2_state.S_LOAD_T_LO_12 0 1 0 0 1 1 0 1 
+M2_state.S_LOAD_T_LO_13 0 1 0 0 1 1 1 0 
+M2_state.S_LOAD_T_LO_14 0 1 0 0 1 1 1 1 
+M2_state.S_LOAD_T_LO_15 0 1 0 1 0 0 0 0 
+M2_state.S_LOAD_T_LO_16 0 1 0 1 0 0 0 1 
+M2_state.S_LOAD_T_LO_17 0 1 0 1 0 0 1 0 
+M2_state.S_MS_A_LI_00 0 1 0 1 0 0 1 1 
+M2_state.S_MS_A_LI_01 0 1 0 1 0 1 0 0 
+M2_state.S_MS_A_LI_02 0 1 0 1 0 1 0 1 
+M2_state.S_MS_A_LI_9 0 1 0 1 0 1 1 0 
+M2_state.S_MS_A_LI_10 0 1 0 1 0 1 1 1 
+M2_state.S_MS_A_LI_11 0 1 0 1 1 0 0 0 
+M2_state.S_MS_A_LI_12 0 1 0 1 1 0 0 1 
+M2_state.S_MS_A_LI_13 0 1 0 1 1 0 1 0 
+M2_state.S_MS_A_LI_14 0 1 0 1 1 0 1 1 
+M2_state.S_MS_A_LI_15 0 1 0 1 1 1 0 0 
+M2_state.S_MS_A_LI_16 0 1 0 1 1 1 0 1 
+M2_state.S_MS_A_1 0 1 0 1 1 1 1 0 
+M2_state.S_MS_A_2 0 1 0 1 1 1 1 1 
+M2_state.S_MS_A_3 0 1 1 0 0 0 0 0 
+M2_state.S_MS_A_4 0 1 1 0 0 0 0 1 
+M2_state.S_MS_A_5 0 1 1 0 0 0 1 0 
+M2_state.S_MS_A_6 0 1 1 0 0 0 1 1 
+M2_state.S_MS_A_7 0 1 1 0 0 1 0 0 
+M2_state.S_MS_A_8 0 1 1 0 0 1 0 1 
+M2_state.S_MS_A_9 0 1 1 0 0 1 1 0 
+M2_state.S_MS_A_10 0 1 1 0 0 1 1 1 
+M2_state.S_MS_A_11 0 1 1 0 1 0 0 0 
+M2_state.S_MS_A_12 0 1 1 0 1 0 0 1 
+M2_state.S_MS_A_13 0 1 1 0 1 0 1 0 
+M2_state.S_MS_A_14 0 1 1 0 1 0 1 1 
+M2_state.S_MS_A_15 0 1 1 0 1 1 0 0 
+M2_state.S_MS_A_16 0 1 1 0 1 1 0 1 
+M2_state.S_MS_A_LO_1 0 1 1 0 1 1 1 0 
+M2_state.S_MS_A_LO_2 0 1 1 0 1 1 1 1 
+M2_state.S_MS_A_LO_3 0 1 1 1 0 0 0 0 
+M2_state.S_MS_A_LO_4 0 1 1 1 0 0 0 1 
+M2_state.S_MS_A_LO_5 0 1 1 1 0 0 1 0 
+M2_state.S_MS_A_LO_6 0 1 1 1 0 0 1 1 
+M2_state.S_MS_A_LO_7 0 1 1 1 0 1 0 0 
+M2_state.S_MS_A_LO_8 0 1 1 1 0 1 0 1 
+M2_state.S_MS_A_LO_9 0 1 1 1 0 1 1 0 
+M2_state.S_MS_A_LO_10 0 1 1 1 0 1 1 1 
+M2_state.S_MS_A_LO_11 0 1 1 1 1 0 0 0 
+M2_state.S_MS_A_LO_12 0 1 1 1 1 0 0 1 
+M2_state.S_MS_A_LO_13 0 1 1 1 1 0 1 0 
+M2_state.S_MS_A_LO_14 0 1 1 1 1 0 1 1 
+M2_state.S_MS_A_LO_15 0 1 1 1 1 1 0 0 
+M2_state.S_MS_A_LO_16 0 1 1 1 1 1 0 1 
+M2_state.S_MS_A_LO_17 0 1 1 1 1 1 1 0 
+M2_state.S_MS_B_LI_00 0 1 1 1 1 1 1 1 
+M2_state.S_MS_B_LI_01 1 0 0 0 0 0 0 0 
+M2_state.S_MS_B_LI_02 1 0 0 0 0 0 0 1 
+M2_state.S_MS_B_LI_9 1 0 0 0 0 0 1 0 
+M2_state.S_MS_B_LI_10 1 0 0 0 0 0 1 1 
+M2_state.S_MS_B_LI_11 1 0 0 0 0 1 0 0 
+M2_state.S_MS_B_LI_12 1 0 0 0 0 1 0 1 
+M2_state.S_MS_B_LI_13 1 0 0 0 0 1 1 0 
+M2_state.S_MS_B_LI_14 1 0 0 0 0 1 1 1 
+M2_state.S_MS_B_LI_15 1 0 0 0 1 0 0 0 
+M2_state.S_MS_B_LI_16 1 0 0 0 1 0 0 1 
+M2_state.S_MS_B_1 1 0 0 0 1 0 1 0 
+M2_state.S_MS_B_2 1 0 0 0 1 0 1 1 
+M2_state.S_MS_B_3 1 0 0 0 1 1 0 0 
+M2_state.S_MS_B_4 1 0 0 0 1 1 0 1 
+M2_state.S_MS_B_5 1 0 0 0 1 1 1 0 
+M2_state.S_MS_B_6 1 0 0 0 1 1 1 1 
+M2_state.S_MS_B_7 1 0 0 1 0 0 0 0 
+M2_state.S_MS_B_8 1 0 0 1 0 0 0 1 
+M2_state.S_MS_B_9 1 0 0 1 0 0 1 0 
+M2_state.S_MS_B_10 1 0 0 1 0 0 1 1 
+M2_state.S_MS_B_11 1 0 0 1 0 1 0 0 
+M2_state.S_MS_B_12 1 0 0 1 0 1 0 1 
+M2_state.S_MS_B_13 1 0 0 1 0 1 1 0 
+M2_state.S_MS_B_14 1 0 0 1 0 1 1 1 
+M2_state.S_MS_B_15 1 0 0 1 1 0 0 0 
+M2_state.S_MS_B_16 1 0 0 1 1 0 0 1 
+M2_state.S_MS_B_LO_1 1 0 0 1 1 0 1 0 
+M2_state.S_MS_B_LO_2 1 0 0 1 1 0 1 1 
+M2_state.S_MS_B_LO_3 1 0 0 1 1 1 0 0 
+M2_state.S_MS_B_LO_4 1 0 0 1 1 1 0 1 
+M2_state.S_MS_B_LO_5 1 0 0 1 1 1 1 0 
+M2_state.S_MS_B_LO_6 1 0 0 1 1 1 1 1 
+M2_state.S_MS_B_LO_7 1 0 1 0 0 0 0 0 
+M2_state.S_MS_B_LO_8 1 0 1 0 0 0 0 1 
+M2_state.S_MS_B_LO_9 1 0 1 0 0 0 1 0 
+M2_state.S_MS_B_LO_10 1 0 1 0 0 0 1 1 
+M2_state.S_MS_B_LO_11 1 0 1 0 0 1 0 0 
+M2_state.S_MS_B_LO_12 1 0 1 0 0 1 0 1 
+M2_state.S_MS_B_LO_13 1 0 1 0 0 1 1 0 
+M2_state.S_MS_B_LO_14 1 0 1 0 0 1 1 1 
+M2_state.S_MS_B_LO_15 1 0 1 0 1 0 0 0 
+M2_state.S_MS_B_LO_16 1 0 1 0 1 0 0 1 
+M2_state.S_MS_B_LO_17 1 0 1 0 1 0 1 0 
+M2_state.S_MEGASTATE_END 1 0 1 0 1 0 1 1 
+
+State Machine - |project|milestone1:milestone1_unit|M1_state
+Name M1_state~10 M1_state~9 M1_state~8 M1_state~7 M1_state~6 M1_state~5 M1_state~4 
+M1_state.S_M1_IDLE 0 0 0 0 0 0 0 
+M1_state.S_LOAD_0 0 0 0 0 0 1 1 
+M1_state.S_LOAD_1 0 0 0 0 1 0 0 
+M1_state.S_LOAD_2 0 0 0 0 1 0 1 
+M1_state.S_LOAD_3 0 0 0 0 1 1 0 
+M1_state.S_LOAD_4 0 0 0 0 1 1 1 
+M1_state.S_LOAD_5 0 0 0 1 0 0 0 
+M1_state.S_LOAD_6 0 0 0 1 0 0 1 
+M1_state.S_LOAD_7 0 0 0 1 0 1 0 
+M1_state.S_LOAD_8 0 0 0 1 0 1 1 
+M1_state.S_LOAD_9 0 0 0 1 1 0 0 
+M1_state.S_LOAD_10 0 0 0 1 1 0 1 
+M1_state.S_LOAD_11 0 0 0 1 1 1 0 
+M1_state.S_LOAD_12 0 0 0 1 1 1 1 
+M1_state.S_LOAD_13 0 0 1 0 0 0 0 
+M1_state.S_LOAD_14 0 0 1 0 0 0 1 
+M1_state.S_LOAD_15 0 0 1 0 0 1 0 
+M1_state.S_LOAD_16 0 0 1 0 0 1 1 
+M1_state.S_LOAD_17 0 0 1 0 1 0 0 
+M1_state.S_LOAD_18 0 0 1 0 1 0 1 
+M1_state.S_LOAD_19 0 0 1 0 1 1 0 
+M1_state.S_LOAD_20 0 0 1 0 1 1 1 
+M1_state.S_LOAD_21 0 0 1 1 0 0 0 
+M1_state.S_LOAD_22 0 0 1 1 0 0 1 
+M1_state.S_COMMON_0 0 0 1 1 0 1 0 
+M1_state.S_COMMON_1 0 0 1 1 0 1 1 
+M1_state.S_COMMON_2 0 0 1 1 1 0 0 
+M1_state.S_COMMON_3 0 0 1 1 1 0 1 
+M1_state.S_COMMON_4 0 0 1 1 1 1 0 
+M1_state.S_COMMON_5 0 0 1 1 1 1 1 
+M1_state.S_COMMON_6 0 1 0 0 0 0 0 
+M1_state.S_COMMON_7 0 1 0 0 0 0 1 
+M1_state.S_COMMON_8 0 1 0 0 0 1 0 
+M1_state.S_COMMON_9 0 1 0 0 0 1 1 
+M1_state.S_COMMON_10 0 1 0 0 1 0 0 
+M1_state.S_COMMON_11 0 1 0 0 1 0 1 
+M1_state.S_COMMON_12 0 1 0 0 1 1 0 
+M1_state.S_LEAD_OUT_0 0 1 0 0 1 1 1 
+M1_state.S_LEAD_OUT_1 0 1 0 1 0 0 0 
+M1_state.S_LEAD_OUT_2 0 1 0 1 0 0 1 
+M1_state.S_LEAD_OUT_3 0 1 0 1 0 1 0 
+M1_state.S_LEAD_OUT_4 0 1 0 1 0 1 1 
+M1_state.S_LEAD_OUT_5 0 1 0 1 1 0 0 
+M1_state.S_LEAD_OUT_6 0 1 0 1 1 0 1 
+M1_state.S_LEAD_OUT_7 0 1 0 1 1 1 0 
+M1_state.S_LEAD_OUT_8 0 1 0 1 1 1 1 
+M1_state.S_LEAD_OUT_9 0 1 1 0 0 0 0 
+M1_state.S_LEAD_OUT_10 0 1 1 0 0 0 1 
+M1_state.S_LEAD_OUT_11 0 1 1 0 0 1 0 
+M1_state.S_LEAD_OUT_12 0 1 1 0 0 1 1 
+M1_state.S_LEAD_OUT_13 0 1 1 0 1 0 0 
+M1_state.S_LEAD_OUT_14 0 1 1 0 1 0 1 
+M1_state.S_LEAD_OUT_15 0 1 1 0 1 1 0 
+M1_state.S_LEAD_OUT_16 0 1 1 0 1 1 1 
+M1_state.S_LEAD_OUT_17 0 1 1 1 0 0 0 
+M1_state.S_LEAD_OUT_18 0 1 1 1 0 0 1 
+M1_state.S_LEAD_OUT_19 0 1 1 1 0 1 0 
+M1_state.S_LEAD_OUT_20 0 1 1 1 0 1 1 
+M1_state.S_LEAD_OUT_21 0 1 1 1 1 0 0 
+M1_state.S_LEAD_OUT_22 0 1 1 1 1 0 1 
+M1_state.S_LEAD_OUT_23 0 1 1 1 1 1 0 
+M1_state.S_LEAD_OUT_24 0 1 1 1 1 1 1 
+M1_state.S_LEAD_OUT_25 1 0 0 0 0 0 0 
+M1_state.S_LEAD_OUT_26 1 0 0 0 0 0 1 
+M1_state.S_LEAD_OUT_27 1 0 0 0 0 1 0 
+M1_state.S_LEAD_OUT_28 1 0 0 0 0 1 1 
+M1_state.S_LEAD_OUT_29 1 0 0 0 1 0 0 
+M1_state.S_LEAD_OUT_30 1 0 0 0 1 0 1 
+M1_state.S_LEAD_OUT_31 1 0 0 0 1 1 0 
+M1_state.S_LEAD_OUT_32 1 0 0 0 1 1 1 
+M1_state.S_LEAD_OUT_33 1 0 0 1 0 0 0 
+M1_state.S_LEAD_OUT_34 1 0 0 1 0 0 1 
+M1_state.S_LEAD_OUT_35 1 0 0 1 0 1 0 
+M1_state.S_LEAD_OUT_36 1 0 0 1 0 1 1 
+
+State Machine - |project|UART_SRAM_interface:UART_unit|UART_SRAM_state
+Name UART_SRAM_state~13 UART_SRAM_state~12 UART_SRAM_state~11 
+UART_SRAM_state.S_US_IDLE 0 0 0 
+UART_SRAM_state.S_US_STRIP_FILE_HEADER_1 0 0 1 
+UART_SRAM_state.S_US_STRIP_FILE_HEADER_2 0 1 0 
+UART_SRAM_state.S_US_START_FIRST_BYTE_RECEIVE 0 1 1 
+UART_SRAM_state.S_US_WRITE_FIRST_BYTE 1 0 0 
+UART_SRAM_state.S_US_START_SECOND_BYTE_RECEIVE 1 0 1 
+UART_SRAM_state.S_US_WRITE_SECOND_BYTE 1 1 0 
+
+State Machine - |project|UART_SRAM_interface:UART_unit|UART_Receive_Controller:UART_RX|RXC_state
+Name RXC_state~9 RXC_state~8 
+RXC_state.S_RXC_IDLE 0 0 
+RXC_state.S_RXC_SYNC 0 1 
+RXC_state.S_RXC_ASSEMBLE_DATA 1 0 
+RXC_state.S_RXC_STOP_BIT 1 1 
+
+State Machine - |project|VGA_SRAM_interface:VGA_unit|VGA_SRAM_state
+Name VGA_SRAM_state~17 VGA_SRAM_state~16 VGA_SRAM_state~15 VGA_SRAM_state~14 
+VGA_SRAM_state.S_VS_WAIT_NEW_PIXEL_ROW 0 0 0 0 
+VGA_SRAM_state.S_VS_NEW_PIXEL_ROW_DELAY_1 0 0 0 1 
+VGA_SRAM_state.S_VS_NEW_PIXEL_ROW_DELAY_2 0 0 1 0 
+VGA_SRAM_state.S_VS_NEW_PIXEL_ROW_DELAY_3 0 0 1 1 
+VGA_SRAM_state.S_VS_NEW_PIXEL_ROW_DELAY_4 0 1 0 0 
+VGA_SRAM_state.S_VS_NEW_PIXEL_ROW_DELAY_5 0 1 0 1 
+VGA_SRAM_state.S_VS_FETCH_PIXEL_DATA_0 0 1 1 0 
+VGA_SRAM_state.S_VS_FETCH_PIXEL_DATA_1 0 1 1 1 
+VGA_SRAM_state.S_VS_FETCH_PIXEL_DATA_2 1 0 0 0 
+VGA_SRAM_state.S_VS_FETCH_PIXEL_DATA_3 1 0 0 1 

@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="project">
+		<CBX_INST_ENTRY INSTANCE_NAME="|project|milestone1:milestone1_unit|lpm_add_sub:Add14" CBX_FILE_NAME="add_sub_7ri.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|project|milestone1:milestone1_unit|lpm_add_sub:Add18" CBX_FILE_NAME="add_sub_7ri.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|project|milestone1:milestone1_unit|lpm_mult:Mult0" CBX_FILE_NAME="mult_77t.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|project|milestone2:milestone2_unit|dual_port_RAM1:dual_port_RAM1_inst1|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_tq92.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|project|milestone2:milestone2_unit|lpm_mult:Mult2" CBX_FILE_NAME="mult_e1t.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|project|milestone1:milestone1_unit|lpm_mult:Mult1" CBX_FILE_NAME="mult_77t.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|project|milestone2:milestone2_unit|dual_port_RAM0:dual_port_RAM0_inst0|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_tq92.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|project|milestone2:milestone2_unit|lpm_mult:Mult3" CBX_FILE_NAME="mult_e1t.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|project|milestone1:milestone1_unit|lpm_add_sub:Add7" CBX_FILE_NAME="add_sub_7ri.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|project|milestone1:milestone1_unit|lpm_mult:Mult2" CBX_FILE_NAME="mult_k8t.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|project|milestone2:milestone2_unit|lpm_mult:Mult0" CBX_FILE_NAME="mult_e1t.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|project|milestone1:milestone1_unit|lpm_add_sub:Add13" CBX_FILE_NAME="add_sub_7ri.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|project|milestone1:milestone1_unit|lpm_mult:Mult3" CBX_FILE_NAME="mult_k8t.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|project|milestone2:milestone2_unit|dual_port_RAM2:dual_port_RAM2_inst2|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_tq92.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|project|milestone2:milestone2_unit|lpm_mult:Mult1" CBX_FILE_NAME="mult_e1t.tdf"/>
+	</PROJECT>
+</LOG_ROOT>
